@@ -1,0 +1,11 @@
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+docker-compose --version (this should show you a version if everything went accordingly!)
+
+docker run --rm archlinux:latest /bin/echo "HELLO"
+
+docker images (to check and see if the command we just ran worked)
+
+sudo ufw enable (enabling firewall)
